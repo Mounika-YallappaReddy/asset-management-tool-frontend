@@ -1,0 +1,214 @@
+.dashboardNew{
+    height:100vh;
+    width: 100vw;
+    background-color:#8a9bbc;
+}
+.dashboardNew .container-fluid{
+   height:100vh;
+}
+.row{
+    height:100vh;
+}
+.dashboardNew .left-nav{
+    background-color: #07204b;
+    color:aliceblue
+}
+.dashboardNew .left-nav h1{
+    color: white;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-family: 'Nosifer', cursive;
+}
+.dashboardNew .left-nav ul{
+    list-style: none;
+    font-family: 'Alike', serif;
+ letter-spacing: 1px;
+}
+.dashboardNew .left-nav ul li{
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+.dashboardNew .right-nav .container-fluid{
+padding: 0px;
+}
+/* .dashboardNew .right-nav .container-fluid .row{
+    background-color: aliceblue;
+} */
+.right-nav .right-nav-header{
+    background-color: #07204b;
+    height: 8vh;
+}
+.right-nav .right-nav-header h2{
+    font-family: 'EB Garamond', serif;
+    margin-left: 85%;
+    color: #cccccc;
+    padding-top: 8px;
+}
+.right-nav .right-nav-body{
+    background-color: #8a9bbc;
+    height: 92vh;
+    box-sizing: border-box;
+}
+.right-nav-body .container-fluid{
+     height: 100%;
+}
+.right-nav-body .container-fluid .row{
+/* border:1px solid red; */
+height: 100%;
+}
+.right-nav-body .dashboard-cards .container-fluid .row{
+    /* border:1px  solid red; */
+    height:30%;
+    box-sizing: border-box;
+    
+}
+/* vendor card styling */
+.right-nav-body .vendorCard .container-fluid .row{
+    height: 100%;
+}
+.right-nav-body .vendorCard .vendor-header{
+    background-color: #8a9bbc;
+    height:10%;
+}
+.right-nav-body .vendorCard .vendor-header button{
+    margin-top: 1%;
+    background-color:#4a5a78;
+    margin-left: 4%;
+    font-family: 'EB Garamond', serif;
+}
+.right-nav-body .vendorCard .vendor-body{
+    height: 90%;
+    background-color: aliceblue;
+}
+#add-vendor-modal{
+    height:80vh;
+    width:40vw;
+    
+}
+#add-vendor-header{
+   background-color: #07204b;
+   height:3rem;
+   color:white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#add-vendor-title{
+    margin-left:40%
+}
+.vendor-body-header{
+    margin-left:70%;
+    /* padding-top:1%;
+    box-sizing: border-box; */
+}
+.vendor-body-header input,.vendor-body-header button{
+    height:35px
+}
+.vendor-body-header button{
+    background-color:blue;
+    width:100px;
+    color:white;
+}
+.vendor-body-content{
+    height:90%;
+ }
+.vendors-list{
+    height:90%;
+ }
+.vendors-pagination{
+    height: 10%;
+}
+/* Vendors detail  page styling */
+.vendorCard .container-fluid .row{
+
+ background-color: aliceblue;   
+}
+.vendor-detail-header{
+    height: 8vh;
+    background-color: #4a5a78;
+}
+.vendor-detail-header h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3px;
+    font-size:2.5rem;
+}
+.vendor-detail-body{
+    height:82vh;
+    
+}
+.vendor-detail-body button{
+    background-color:#07204b;
+    color: white;
+}
+.vendor-detail-body .container-fluid{
+    /* border:1px solid red; */
+    height:90%;
+    margin-top: 2%;
+}
+
+.vendor-detail-body .form-row{
+    /* border:1px solid green; */
+    width:100%;
+    height:20%
+}
+#edit-btn{
+    margin-left:4%;
+    width:6%
+}
+.form-margin{
+    margin-left:4%
+}
+.form-margin-new{
+    margin-left:9%
+}
+.vendor-detail-button{
+    /* border:1px solid red; */
+    height:7%
+}
+#save-btn{
+    background-color:#07204b;
+    color: white;
+    margin-left: 45%;
+    width:10%;
+    height:8%;
+    border-radius:6%;
+}
+/* PRODUCT CARD STYLING */
+#product-save-btn{
+   margin-left: 30%;
+   width:30%;
+    height:90%;
+}
+/* ASSET HEADER LIST */
+.asset-header-list{
+    font-family: 'EB Garamond', serif;
+    padding-top:1%
+}
+.location-header-list{
+    font-family: 'EB Garamond', serif;
+    padding-top:-3%;
+    margin-top:-2%
+}
+/* REPORT CARD STYLING */
+.report-card-header{
+    font-family: 'EB Garamond', serif;
+    padding-top:1%
+}
+.form-margin-location-new{
+    margin-left:4%
+}
+.report-export{
+    margin-left: -13%;
+    margin-top:14%;
+   
+}
+
+/* icon styling */
+.home-icon{
+    /* padding-right: 2%; */
+    margin-left: -12%;
+    margin-right: 5%;
+    margin-top: -4%
+}
+.add-icon{
+    margin-left: 30%;
+}

@@ -1,0 +1,203 @@
+/* LOGIN PAGE STYLING */
+.login-page .container-fluid{
+    width:100vw;
+    height:100vh;
+    /* border:1px solid black; */
+    min-width:375px;
+    /* background:url('https://i.pinimg.com/474x/66/5c/79/665c79ea5a2a05f64949606289719605.jpg'); */
+    background:linear-gradient(to right bottom, #3e5582,#8a9bbc);
+}
+.login-page .container-fluid .row{
+    height: 70vh;
+    width: 100%;
+    margin: 0px;
+}
+
+.left-content{
+    background:url('https://t3.ftcdn.net/jpg/02/32/91/16/240_F_232911647_96KtVYuaAat8tnwO5lxZ4wOSNiqrHioG.jpg');
+    background-size: cover;
+}
+.left-content h1{
+    font-family: 'Alike', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Monoton', cursive;
+margin-top:10%;
+margin-left: 5%;
+font-size:2.2rem
+}
+.left-content h3{
+    font-family: 'Niconne', cursive;
+    margin-left: 5%;
+    color:#f2f2f2;
+}
+.left-content p{
+    font-family: 'Alike', serif;
+    margin-left: 5%;
+    /* font-family: 'EB Garamond', serif;    */
+}
+.right-content{
+    
+    background-color: #07204b;
+}
+.right-content h1{
+    padding-left:80%;
+    margin-top: 4%;
+    font-family: 'Nosifer', cursive;
+    /* font-family: 'Monoton', cursive; */
+}
+.right-content h2{
+    font-family: 'EB Garamond', serif;
+    color:#f2f2f2
+}
+.right-content p{
+    color: #e6e6e6;
+}
+.login-form{
+    margin-top:5%;
+    
+}
+.login-form form{
+    width: 60%;
+}
+.login-form form .register-user{
+    margin-left:40%
+}
+h1,h3,p{
+    color: white;
+}
+.login-btn{
+    width:100%;
+    margin-top:5%;
+}
+
+/* REGISTER PAGE STYLING */
+.register-page .container-fluid{
+    width:100vw;
+    height:100vh;
+    /* border:1px solid black; */
+    min-width:375px;
+    /* background:url('https://i.pinimg.com/474x/66/5c/79/665c79ea5a2a05f64949606289719605.jpg'); */
+    background:linear-gradient(to right bottom, #3e5582,#8a9bbc);
+}
+.register-page .container-fluid .row{
+    height: 82vh;
+    width: 100%;
+    margin: 0px;
+}
+.register-header{
+    margin-top:-5%;
+    margin-bottom: 5%;
+}
+.register-left-content h1{
+    margin-top: 5%;
+}
+/* EMAIL PAGE STYING */
+.email-page .container-fluid{
+    background:linear-gradient(to right bottom, #3e5582,#8a9bbc);
+    height: 100vh;
+    width:100%;
+    min-width: 410px;
+}
+.email-page .container-fluid .row{
+    height:50vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.forgot-page .container-fluid .row{
+    height:65vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.email-page .email-form{
+    /* border: 1px solid black; */
+    background-color: #07204b; 
+    min-width: 410px;
+}
+.email-form h1{
+    margin-left: 65%;
+    margin-top: 4%;
+    font-family: 'Nosifer', cursive;
+}
+.email-form h2{
+    color:#cccccc;
+    font-family: 'EB Garamond', serif;
+    margin-top: 4%;
+}
+.email-btn{
+    width:100%;
+    margin-top: 4%;
+}
+
+/* DASHBOARD STYLING */
+
+/* .dashboard-page .container-fluid{
+    width:100vw;
+    height: 100vh;
+    border:1px solid black;
+}
+.dashboard-page .container-fluid .row{
+    width:100vw;
+    height: 100%;
+    border:1px solid red;
+}
+.dashboard .left-nav{
+    border: 1px solid black;
+    background-color: #07204b; 
+    
+}
+.dashboard .left-nav h1{
+    margin-left:50%;
+    margin-top: 6%;
+    font-family: 'Nosifer', cursive;
+}
+.left-nav ul{
+ list-style: none;
+ color: #cccccc;
+ font-family: 'Alike', serif;
+ letter-spacing: 1px;
+ font-size: 100%;
+}
+.left-nav ul li{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.assets{
+    display:block
+}
+
+.assets-dropdown:hover .assets{
+display:none;
+}
+
+.right-nav .right-nav-header{
+    height:8vh;
+    background-color: #07204b;
+   
+}
+.right-nav .right-nav-header h1{
+    font-family: 'EB Garamond', serif;
+    margin-left: 85%;
+    color: #cccccc;
+   
+}
+.right-nav .right-nav-body{
+    height: 92vh;
+    background-color:#8a9bbc;
+}
+.right-nav-body .container-fluid{
+    width:100%;
+    height: 100%;
+    border:2px solid orange
+}
+.right-nav-body .container-fluid .row{
+    margin: 0px;
+    width: 100%;
+    border: 1px dotted red;
+    height:25%;
+    margin-top:30px
+}
+VENDORS STYLING
+.vendors-sub-header{
+    height:2vh;
+    background-color: red;
+} */
