@@ -8,7 +8,7 @@ import Forgotpass from './components/Forgotpass'
 import DashboardNew from './components/DashboardNew';
 
 export const CommonContext = React.createContext();
-const apiurl = 'http://localhost:8000'
+const apiurl = 'https://asset-management-tool-back.onrender.com'
 
 function App() {
   return <>
