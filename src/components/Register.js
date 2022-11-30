@@ -20,6 +20,7 @@ function Register() {
    
 
     async function handleRegister(){
+        console.log("resiter clicked");
         let res = await axios.post(`${commonContext.apiurl}/signup`, {
            userFirstName,
            userLastName,
@@ -32,6 +33,7 @@ function Register() {
             navigate('/login')
         }else{
             if(res.data.statusCode===400 || res.data.statusCode===500){
+                console.log(res.data.message);
                 setIsErrorFound(true)
                 setErrMsg(res.data.message)
             }
